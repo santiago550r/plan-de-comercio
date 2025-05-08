@@ -1,0 +1,136 @@
+.body {
+    background-color: #d4d3d3;
+    
+}
+.header-top {
+    width: 1350px;
+    height: 100px;
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(24, 24, 165);
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    flex-direction:column-reverse;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0%;   
+    padding: 0px;
+
+}
+
+.texto {
+    font-size: 30px;
+    
+
+}
+main a:hover{
+    color: white;
+}
+
+.iconos {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold; 
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+}
+
+.div1 { 
+    margin: 40px;
+    position: relative;
+    border-radius: 20px;
+    color: black;
+    background-color:rgb(24, 24, 165);
+    padding: 15px;
+    width: 900px;
+    height: 300px;
+    text-align: right;
+
+}
+
+.div2 {
+    position: absolute;
+    top: 0px;
+    background-color: rgb(176, 180, 184);
+    border-radius: 15%;
+    color: black;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+#perrafo {
+    justify-content: center;
+    color: rgb(194, 197, 201);
+    background-color: white;
+    width: 370px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;  
+    justify-content: space-around;
+}
+#botono3 {
+    background-color: rgb(24, 24, 165);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+
+#boton2 {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#boton1 {
+    background-color: dodgerblue;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.footer {
+    margin: 20px;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .contacto,
+.footer .redes {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer .redes a img {
+    width: 30px;
+    margin-right: 10px;
+}
